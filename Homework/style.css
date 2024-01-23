@@ -1,0 +1,84 @@
+body {
+    font-family: "Audiowide", sans-serif;
+  }
+
+a {
+    margin: 10px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+p:first-child {
+    color: blue;
+}
+
+p:last-child {
+    color: aqua;
+}
+
+p:only-child {
+    color: purple;
+}
+
+q:lang(no){
+    quotes: "~" "~";
+}
+
+h1:hover{
+    background-color: aqua;
+    border: 5px dotted black;
+}
+
+p:nth-of-type(2) {
+    color: greenyellow;
+}
+
+p:nth-of-type(3) {
+    background-color: blueviolet;
+}
+
+h4:not(p) {
+    color: yellow;
+}
+
+h4:not(p) {
+    background-color: cornflowerblue;
+}
+
+h3:not(p) {
+    color: darkgreen;
+}
+
+h3:hover {
+    background-color: yellowgreen;
+}
+
+h2:hover {
+    background-color:cyan ;
+}
+
+[class|="top"] {
+    background-color: yellow;
+}
+
+[class^="me"] {
+    background: coral;
+}
+
+[class$="test"] {
+    font-size: x-large;
+}
+
+[class*="te"] {
+    background-color: deeppink;
+}

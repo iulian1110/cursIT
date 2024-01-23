@@ -12,7 +12,7 @@
         p::first-letter {
             color: red;
             font-size: 40px;
-        } */
+        } 
 
         a[target="_blank"] {
             border: 1px solid blue;
@@ -33,18 +33,42 @@
 
         p {
             color: brown;
+        } */
+        p::after{
+            content: "this is the extra content";
+            color: red;
+        }
+
+        p::before {
+            content: "this is added before";
+            color: blue;
+        }
+
+        .target::selection {
+            color: yellow;
+        }
+           
+        ::marker {
+            color: red;
         }
             
-    </style>
+    </style> 
 </head>
 <body>
     <h1>Pseudo clase</h1>
     <a href="index.html" target="_blank">Index</a>
     <a href="index.html">Index</a>
-    <img src="falsa" alt="flower">
-    <h4>Pseudo elemente</h4>
-    <!-- <p style="color: red;">This is a paragraf 1</p>
-    <p id="paragraf2">This is a paragraf 2</p> -->
-    <p class="paragraf3" id="paragraf2" style="color: red; border: none;">This is a paragraf 3</p>
-    <p>This is a paragraf 4</p>
+    <img src="falsa" alt="flower"> 
+    <h4>Pseudo elemente</h4> 
+   
+    <p>This is a paragraf </p>
+    <p class="target">This is a paragraf </p>
+    <ol>
+        <li>sare</li>
+        <li>zahar</li>
+        <li>faina</li>
+        <li>unt</li>
+        <li>ciocolata</li>
+        <div style="display: list-item;">piept de pui</div>
+    </ol>
 </html>
